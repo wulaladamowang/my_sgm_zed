@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/wh/code/C++Code/sgm_code/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wh/code/C++Code/sgm_code/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/ZED_with_OpenCV.dir/src/main.o -c /home/wh/code/C++Code/sgm_code/src/main.cpp",
+  "file": "/home/wh/code/C++Code/sgm_code/src/main.cpp"
+},
+{
+  "directory": "/home/wh/code/C++Code/sgm_code/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wh/code/C++Code/sgm_code/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/ZED_with_OpenCV.dir/src/my_camera.o -c /home/wh/code/C++Code/sgm_code/src/my_camera.cpp",
+  "file": "/home/wh/code/C++Code/sgm_code/src/my_camera.cpp"
+}
+]
