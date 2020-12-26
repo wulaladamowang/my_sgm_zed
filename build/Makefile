@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wh/code/C++Code/sgm_code
+CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wh/code/C++Code/sgm_code/build
+CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wh/code/C++Code/sgm_code/build/CMakeFiles /home/wh/code/C++Code/sgm_code/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wh/code/C++Code/sgm_code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,46 +111,76 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ZED_with_OpenCV
+# Target rules for targets named my_sgm_zed
 
 # Build rule for target.
-ZED_with_OpenCV: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ZED_with_OpenCV
-.PHONY : ZED_with_OpenCV
+my_sgm_zed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed
+.PHONY : my_sgm_zed
 
 # fast build rule for target.
-ZED_with_OpenCV/fast:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/build
-.PHONY : ZED_with_OpenCV/fast
+my_sgm_zed/fast:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/build
+.PHONY : my_sgm_zed/fast
+
+# target to build an object file
+src/get_point_cloud.o:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o
+.PHONY : src/get_point_cloud.o
+
+# target to preprocess a source file
+src/get_point_cloud.i:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i
+.PHONY : src/get_point_cloud.i
+
+# target to generate assembly for a file
+src/get_point_cloud.s:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s
+.PHONY : src/get_point_cloud.s
+
+# target to build an object file
+src/little_tips.o:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/little_tips.o
+.PHONY : src/little_tips.o
+
+# target to preprocess a source file
+src/little_tips.i:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/little_tips.i
+.PHONY : src/little_tips.i
+
+# target to generate assembly for a file
+src/little_tips.s:
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/little_tips.s
+.PHONY : src/little_tips.s
 
 # target to build an object file
 src/main.o:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/main.o
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/main.o
 .PHONY : src/main.o
 
 # target to preprocess a source file
 src/main.i:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/main.i
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/main.i
 .PHONY : src/main.i
 
 # target to generate assembly for a file
 src/main.s:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/main.s
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/main.s
 .PHONY : src/main.s
 
 # target to build an object file
 src/my_camera.o:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/my_camera.o
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/my_camera.o
 .PHONY : src/my_camera.o
 
 # target to preprocess a source file
 src/my_camera.i:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/my_camera.i
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/my_camera.i
 .PHONY : src/my_camera.i
 
 # target to generate assembly for a file
 src/my_camera.s:
-	$(MAKE) -f CMakeFiles/ZED_with_OpenCV.dir/build.make CMakeFiles/ZED_with_OpenCV.dir/src/my_camera.s
+	$(MAKE) -f CMakeFiles/my_sgm_zed.dir/build.make CMakeFiles/my_sgm_zed.dir/src/my_camera.s
 .PHONY : src/my_camera.s
 
 # Help Target
@@ -160,8 +190,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ZED_with_OpenCV"
+	@echo "... my_sgm_zed"
 	@echo "... edit_cache"
+	@echo "... src/get_point_cloud.o"
+	@echo "... src/get_point_cloud.i"
+	@echo "... src/get_point_cloud.s"
+	@echo "... src/little_tips.o"
+	@echo "... src/little_tips.i"
+	@echo "... src/little_tips.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,12 +1,22 @@
 [
 {
-  "directory": "/home/wh/code/C++Code/sgm_code/build",
-  "command": "/usr/bin/g++-7   -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wh/code/C++Code/sgm_code/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/ZED_with_OpenCV.dir/src/main.o -c /home/wh/code/C++Code/sgm_code/src/main.cpp",
-  "file": "/home/wh/code/C++Code/sgm_code/src/main.cpp"
+  "directory": "/home/wang/code/c++Code/my_sgm_zed/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wang/code/c++Code/my_sgm_zed/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o -c /home/wang/code/c++Code/my_sgm_zed/src/get_point_cloud.cpp",
+  "file": "/home/wang/code/c++Code/my_sgm_zed/src/get_point_cloud.cpp"
 },
 {
-  "directory": "/home/wh/code/C++Code/sgm_code/build",
-  "command": "/usr/bin/g++-7   -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wh/code/C++Code/sgm_code/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/ZED_with_OpenCV.dir/src/my_camera.o -c /home/wh/code/C++Code/sgm_code/src/my_camera.cpp",
-  "file": "/home/wh/code/C++Code/sgm_code/src/my_camera.cpp"
+  "directory": "/home/wang/code/c++Code/my_sgm_zed/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wang/code/c++Code/my_sgm_zed/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/my_sgm_zed.dir/src/little_tips.o -c /home/wang/code/c++Code/my_sgm_zed/src/little_tips.cpp",
+  "file": "/home/wang/code/c++Code/my_sgm_zed/src/little_tips.cpp"
+},
+{
+  "directory": "/home/wang/code/c++Code/my_sgm_zed/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wang/code/c++Code/my_sgm_zed/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/my_sgm_zed.dir/src/main.o -c /home/wang/code/c++Code/my_sgm_zed/src/main.cpp",
+  "file": "/home/wang/code/c++Code/my_sgm_zed/src/main.cpp"
+},
+{
+  "directory": "/home/wang/code/c++Code/my_sgm_zed/build",
+  "command": "/usr/bin/g++-7   -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wang/code/c++Code/my_sgm_zed/include  -g   -std=c++11 -g -O3 -pthread -o CMakeFiles/my_sgm_zed.dir/src/my_camera.o -c /home/wang/code/c++Code/my_sgm_zed/src/my_camera.cpp",
+  "file": "/home/wang/code/c++Code/my_sgm_zed/src/my_camera.cpp"
 }
 ]

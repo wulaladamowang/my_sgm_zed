@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_215f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_215f6.dir/build.make CMakeFiles/cmTC_215f6.dir/build
-make[1]: 进入目录“/home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_215f6.dir/CheckSymbolExists.c.o
-/usr/bin/gcc-7    -o CMakeFiles/cmTC_215f6.dir/CheckSymbolExists.c.o   -c /home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_215f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_215f6.dir/link.txt --verbose=1
-/usr/bin/gcc-7      -rdynamic CMakeFiles/cmTC_215f6.dir/CheckSymbolExists.c.o  -o cmTC_215f6 
-CMakeFiles/cmTC_215f6.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_80d94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80d94.dir/build.make CMakeFiles/cmTC_80d94.dir/build
+make[1]: 进入目录“/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_80d94.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_80d94.dir/CheckSymbolExists.c.o   -c /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_80d94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d94.dir/link.txt --verbose=1
+/usr/bin/gcc-7      -rdynamic CMakeFiles/cmTC_80d94.dir/CheckSymbolExists.c.o  -o cmTC_80d94 
+CMakeFiles/cmTC_80d94.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_215f6.dir/build.make:97: recipe for target 'cmTC_215f6' failed
-make[1]: *** [cmTC_215f6] Error 1
-make[1]: 离开目录“/home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_215f6/fast' failed
-make: *** [cmTC_215f6/fast] Error 2
+CMakeFiles/cmTC_80d94.dir/build.make:97: recipe for target 'cmTC_80d94' failed
+make[1]: *** [cmTC_80d94] Error 1
+make[1]: 离开目录“/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_80d94/fast' failed
+make: *** [cmTC_80d94/fast] Error 2
 
-File /home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eeb66/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eeb66.dir/build.make CMakeFiles/cmTC_eeb66.dir/build
-make[1]: 进入目录“/home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_eeb66.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eeb66.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eeb66
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb66.dir/link.txt --verbose=1
-/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eeb66.dir/CheckFunctionExists.c.o  -o cmTC_eeb66 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_4a1c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a1c5.dir/build.make CMakeFiles/cmTC_4a1c5.dir/build
+make[1]: 进入目录“/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4a1c5.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4a1c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a1c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a1c5.dir/link.txt --verbose=1
+/usr/bin/gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4a1c5.dir/CheckFunctionExists.c.o  -o cmTC_4a1c5 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_eeb66.dir/build.make:97: recipe for target 'cmTC_eeb66' failed
-make[1]: *** [cmTC_eeb66] Error 1
-make[1]: 离开目录“/home/wh/code/C++Code/sgm_code/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_eeb66/fast' failed
-make: *** [cmTC_eeb66/fast] Error 2
+CMakeFiles/cmTC_4a1c5.dir/build.make:97: recipe for target 'cmTC_4a1c5' failed
+make[1]: *** [cmTC_4a1c5] Error 1
+make[1]: 离开目录“/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_4a1c5/fast' failed
+make: *** [cmTC_4a1c5/fast] Error 2
 
 

@@ -11,9 +11,10 @@
 
 #include <sl/Camera.hpp>
 #include <opencv2/opencv.hpp>
+#include "little_tips.hpp"
 
 
 int init_camera_parameters(int nb_zeds, std::vector<sl::Camera>& zeds);
-void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, bool& run, sl::Timestamp& ts);
+void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, bool& run, long long& ts);
 cv::Mat slMat2cvMat(sl::Mat& input);
 #endif

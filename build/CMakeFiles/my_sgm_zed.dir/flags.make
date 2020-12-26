@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11 -g -O3 -pthread
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/cuda/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wh/code/C++Code/sgm_code/include 
+CXX_INCLUDES = -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv4 -I/home/wang/code/c++Code/my_sgm_zed/include 
 

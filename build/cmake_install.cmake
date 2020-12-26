@@ -1,4 +1,4 @@
-# Install script for directory: /home/wh/code/C++Code/sgm_code
+# Install script for directory: /home/wang/code/c++Code/my_sgm_zed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wh/code/C++Code/sgm_code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wang/code/c++Code/my_sgm_zed/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
