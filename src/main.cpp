@@ -49,8 +49,6 @@ int main(int argc, char** argv) {
             wnd_names_right[z] = "ZED(right) ID: " + std::to_string(z);
             cv::namedWindow(wnd_names_left[z]);
             cv::namedWindow(wnd_names_right[z]);
-
-
         }
 
 
