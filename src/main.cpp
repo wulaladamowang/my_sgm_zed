@@ -18,13 +18,15 @@ int main(int argc, char** argv) {
     std::vector<std::string> wnd_names_left(nb_detected_zed); // display windows names
     std::vector<std::string> wnd_names_right(nb_detected_zed); // display windows names
     std::vector<std::vector<cv::Mat>> maps(nb_detected_zed);
-    
+    std::vector<cv::Mat> disparity_imgs(nb_detected_zed);
 
     std::vector<long long> images_ts(nb_detected_zed); // images timestamps
 
     std::vector<cv::Mat> images_left_gray(nb_detected_zed);
     std::vector<cv::Mat> images_right_gray(nb_detected_zed);
-    std::vector<cv::Mat> mats;
+    std::vector<cv::Mat> mats;//临时存储参数矩阵
+
+
     for (int z = 0; z < nb_detected_zed; z++)
         if (zeds[z].isOpened()) {
             sl::Resolution res = zeds[z].getCameraInformation().camera_configuration.resolution;
@@ -37,10 +39,11 @@ int main(int argc, char** argv) {
             images_right.emplace_back(cv::Mat(h_low_res, w_low_res, CV_8UC3));
             images_left_gray.emplace_back(cv::Mat(h_low_res, w_low_res, CV_8UC1));
             images_right_gray.emplace_back(cv::Mat(h_low_res, w_low_res, CV_8UC1));
+            disparity_imgs.emplace_back(cv::Mat(h_low_res, w_low_res, CV_8UC1));
             // create an image to store Left+Depth image
             // camera acquisition thread
-            thread_pool_grab_image[z] = std::thread(zed_acquisition, std::ref(zeds[z]), std::ref(images_left[z]), std::ref(images_right[z]), std::ref(run), std::ref(images_ts[z]));
-
+            thread_pool_grab_image[z] = std::thread(zed_acquisition, std::ref(zeds[z]), std::ref(images_left[z]), std::ref(images_right[z]), std::ref(maps[z]), std::ref(run), std::ref(images_ts[z]));
+            thread_pool_get_point_cloud[z] = std::thread(get_disparity, std::ref(images_left[z]), std::ref(images_right[z]), std::ref(images_ts[z]), std::ref(run), std::ref(disparity_imgs[z]));
             // create windows for display
             wnd_names_left[z] = "ZED(left) ID: " + std::to_string(z);
             wnd_names_right[z] = "ZED(right) ID: " + std::to_string(z);
@@ -78,6 +81,7 @@ int main(int argc, char** argv) {
     for (int z = 0; z < nb_detected_zed; z++)
         if (zeds[z].isOpened()) {
             thread_pool_grab_image[z].join();
+            thread_pool_get_point_cloud[z].join();
             zeds[z].close();
         }
     return EXIT_SUCCESS;

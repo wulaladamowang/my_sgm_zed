@@ -15,6 +15,6 @@
 
 
 int init_camera_parameters(int nb_zeds, std::vector<sl::Camera>& zeds);
-void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, bool& run, long long& ts);
+void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, std::vector<cv::Mat>& map, bool& run, long long& ts);
 cv::Mat slMat2cvMat(sl::Mat& input);
 #endif

@@ -55,7 +55,7 @@ zed: 打开的相机类
 img_left，img_right: 左右相机照片
 ts: 获得图片的时间
 */
-void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, bool& run, long long& ts) {
+void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, std::vector<cv::Mat>& map, bool& run, long long& ts) {
     sl::Mat zed_image;
     sl::Resolution res = zed.getCameraInformation().camera_configuration.resolution;
     const int w_low_res = res.width;
@@ -69,6 +69,8 @@ void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, boo
             zed.retrieveImage(zed_image, sl::VIEW::RIGHT_UNRECTIFIED_GRAY, sl::MEM::CPU, res);
             // copy Dpeth image to the right part of the side by side image
             cv::cvtColor(cv::Mat(h_low_res, w_low_res, CV_8UC4, zed_image.getPtr<sl::uchar1>(sl::MEM::CPU)), img_right, cv::COLOR_RGBA2RGB);
+            cv::remap(img_left, img_left, map[0], map[1], cv::INTER_LINEAR);
+            cv::remap(img_right, img_right, map[2], map[3], cv::INTER_LINEAR);
             ts = getCurrentTime();
         }
         sl::sleep_ms(1);

@@ -58,16 +58,12 @@ void get_tranform_mat(const std::vector<cv::Mat>& mats, const cv::Size& img_size
     maps.push_back(map21);
     maps.push_back(map22);
 }
-void rectify_image(cv::Mat& image_left, cv::Mat& image_right,const std::vector<cv::Mat>& maps){
-    cv::remap(image_left, image_left, maps[0], maps[1], cv::INTER_LINEAR);
-    cv::remap(image_right, image_right, maps[2], maps[3], cv::INTER_LINEAR);
 
-};
 void get_disparity(const cv::Mat& img_left, const cv::Mat& img_right, long long& ts, bool& run, cv::Mat& img_disparity){
-    long long last_ts;
+    long long last_ts = 0;
     while(run){
         if(ts > last_ts){
-            //获得深度函数
+            //获得深度函数 img_left + img_right = img_disparity
             last_ts = ts;
         }
     }
