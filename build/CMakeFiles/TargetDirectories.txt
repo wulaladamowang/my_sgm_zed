@@ -1,3 +1,0 @@
-/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/rebuild_cache.dir
-/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/my_sgm_zed.dir
-/home/wang/code/c++Code/my_sgm_zed/build/CMakeFiles/edit_cache.dir
