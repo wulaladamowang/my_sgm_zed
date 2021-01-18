@@ -1,8 +1,6 @@
-
 #include "get_disparity.hpp"
 
-
-int get_disparity(sgm::StereoSGM& sgm, const cv::Mat& img_left, const cv::Mat& img_right, cv::Mat& disparity, const int disp_size, const bool subpixel){
+int get_disparity(sgm::StereoSGM& sgm, const cv::Mat& img_left, const cv::Mat& img_right, cv::Mat& disparity){
     static const int width = img_left.cols;
     static const int height = img_left.rows;
     
@@ -20,4 +18,16 @@ int get_disparity(sgm::StereoSGM& sgm, const cv::Mat& img_left, const cv::Mat& i
     cudaDeviceSynchronize();
     cudaMemcpy(disparity.data, d_disparity.data, output_bytes, cudaMemcpyDeviceToHost);
     return 0;
+}
+
+void getDisparity(sgm::StereoSGM& sgm, const struct img_time& img_zed, const cv::Size& siz_scale, struct disparity_time& disparity_and_time, bool& run){
+    cv::Mat img_left_scale(siz_scale, img_zed.img_left.type());
+    cv::Mat img_right_scale(siz_scale, img_zed.img_left.type());
+    while (run){
+        cv::resize(img_zed.img_left, img_left_scale, siz_scale);
+        cv::resize(img_zed.img_right, img_right_scale, siz_scale);
+        get_disparity(std::ref(sgm), std::ref(img_left_scale), std::ref(img_right_scale), std::ref(disparity_and_time.disparity));
+        disparity_and_time.time = getCurrentTime();
+    }
+        
 }

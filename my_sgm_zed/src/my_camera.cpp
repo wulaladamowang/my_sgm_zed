@@ -77,6 +77,23 @@ void zed_acquisition(sl::Camera& zed, cv::Mat& img_left, cv::Mat& img_right, std
     }
 }
 
+void getImage(sl::Camera& zed, const sl::RuntimeParameters& runtime_parameters, const std::vector<cv::Mat>& map, 
+              struct img_time& img_zed, bool& run){
+    sl::Mat zed_image_l(zed.getCameraInformation().camera_resolution, sl::MAT_TYPE::U8_C1);
+	sl::Mat zed_image_r(zed.getCameraInformation().camera_resolution, sl::MAT_TYPE::U8_C1);//相机原格式获得图像
+    cv::Mat img_zed_left = slMat2cvMat(zed_image_l);
+    cv::Mat img_zed_right = slMat2cvMat(zed_image_r);//sl::Mat 到opencv 格式图像的转换    
+    
+    while (run){
+        if (zed.grab(runtime_parameters)==sl::ERROR_CODE::SUCCESS){
+            zed.retrieveImage(zed_image_l, sl::VIEW::LEFT_UNRECTIFIED_GRAY, sl::MEM::CPU);
+            zed.retrieveImage(zed_image_r, sl::VIEW::RIGHT_UNRECTIFIED_GRAY, sl::MEM::CPU);
+            cv::remap(img_zed_left, img_zed.img_left, map[0], map[1], cv::INTER_LINEAR);
+            cv::remap(img_zed_right, img_zed.img_right, map[2], map[3], cv::INTER_LINEAR);
+            img_zed.time = getCurrentTime();
+        }
+    }
+}
 /*
 图像转换函数
 */
@@ -95,3 +112,4 @@ cv::Mat slMat2cvMat(sl::Mat& input) {
     }
     return cv::Mat(input.getHeight(), input.getWidth(), cv_type, input.getPtr<sl::uchar1>(sl::MEM::CPU));
 }
+

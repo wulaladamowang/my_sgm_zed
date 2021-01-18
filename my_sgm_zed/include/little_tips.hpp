@@ -3,6 +3,7 @@
 
 #include <stdio.h>    
 #include <sys/time.h>      //添加头文件
+
 long long getCurrentTime(); 
 
 #endif

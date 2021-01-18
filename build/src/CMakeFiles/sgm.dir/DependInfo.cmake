@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wang/code/c++Code/my_sgm_zed_server/src/libsgm_wrapper.cpp" "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o"
-  "/home/wang/code/c++Code/my_sgm_zed_server/src/stereo_sgm.cpp" "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o"
+  "/home/wang/code/c++Code/my_sgm_zed_multithread/src/libsgm_wrapper.cpp" "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o"
+  "/home/wang/code/c++Code/my_sgm_zed_multithread/src/stereo_sgm.cpp" "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

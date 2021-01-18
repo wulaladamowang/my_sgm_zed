@@ -1,4 +1,4 @@
-# Install script for directory: /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed
+# Install script for directory: /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

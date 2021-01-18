@@ -4,8 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/libSGM/include/**",
-                "${workspaceFolder}/libSGM/src/**",
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/src/**",
                 "/usr/include",
                 "/usr/local/include/**",
                 "/usr/local/include/opencv4/**",
@@ -17,7 +17,6 @@
             "cStandard": "gnu11",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "${workspaceFolder}/libSGM/build/compile_commands.json",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],

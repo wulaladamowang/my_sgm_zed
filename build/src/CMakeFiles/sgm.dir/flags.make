@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -Wall   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wang/code/c++Code/my_sgm_zed_server/include -I/home/wang/code/c++Code/my_sgm_zed_server/src/../include -I/usr/local/cuda-10.0/include 
+CXX_INCLUDES = -I/home/wang/code/c++Code/my_sgm_zed_multithread/include -I/home/wang/code/c++Code/my_sgm_zed_multithread/src/../include -I/usr/local/cuda-10.0/include 
 

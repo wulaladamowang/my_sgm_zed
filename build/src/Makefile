@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_server
+CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_server/build
+CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/progress.marks
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles 0
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/progress.marks
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/sgm.dir/rule:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/sgm.dir/rule
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/sgm.dir/rule
 .PHONY : src/CMakeFiles/sgm.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ sgm: src/CMakeFiles/sgm.dir/rule
 
 # fast build rule for target.
 sgm/fast:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/build
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/build
 .PHONY : sgm/fast
 
 libsgm_wrapper.o: libsgm_wrapper.cpp.o
@@ -177,7 +177,7 @@ libsgm_wrapper.o: libsgm_wrapper.cpp.o
 
 # target to build an object file
 libsgm_wrapper.cpp.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o
 .PHONY : libsgm_wrapper.cpp.o
 
 libsgm_wrapper.i: libsgm_wrapper.cpp.i
@@ -186,7 +186,7 @@ libsgm_wrapper.i: libsgm_wrapper.cpp.i
 
 # target to preprocess a source file
 libsgm_wrapper.cpp.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i
 .PHONY : libsgm_wrapper.cpp.i
 
 libsgm_wrapper.s: libsgm_wrapper.cpp.s
@@ -195,7 +195,7 @@ libsgm_wrapper.s: libsgm_wrapper.cpp.s
 
 # target to generate assembly for a file
 libsgm_wrapper.cpp.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s
 .PHONY : libsgm_wrapper.cpp.s
 
 stereo_sgm.o: stereo_sgm.cpp.o
@@ -204,7 +204,7 @@ stereo_sgm.o: stereo_sgm.cpp.o
 
 # target to build an object file
 stereo_sgm.cpp.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o
 .PHONY : stereo_sgm.cpp.o
 
 stereo_sgm.i: stereo_sgm.cpp.i
@@ -213,7 +213,7 @@ stereo_sgm.i: stereo_sgm.cpp.i
 
 # target to preprocess a source file
 stereo_sgm.cpp.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.i
 .PHONY : stereo_sgm.cpp.i
 
 stereo_sgm.s: stereo_sgm.cpp.s
@@ -222,7 +222,7 @@ stereo_sgm.s: stereo_sgm.cpp.s
 
 # target to generate assembly for a file
 stereo_sgm.cpp.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f src/CMakeFiles/sgm.dir/build.make src/CMakeFiles/sgm.dir/stereo_sgm.cpp.s
 .PHONY : stereo_sgm.cpp.s
 
 # Help Target
@@ -255,6 +255,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

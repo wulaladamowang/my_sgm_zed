@@ -166,3 +166,11 @@ void get_roi(cv::Mat& image, cv::Mat& mask, bool& has_roi, std::vector<int>& rec
         has_roi = false;
     }
 }
+
+void getMaskRoi(struct img_time& img_zed, struct roi_time& roi_mask, bool& run){
+    while (run){
+        get_roi(std::ref(img_zed.img_left), std::ref(roi_mask.mask), std::ref(roi_mask.is_detected_mask), std::ref(roi_mask.rect_roi));
+        roi_mask.time = getCurrentTime();
+    }
+        
+}

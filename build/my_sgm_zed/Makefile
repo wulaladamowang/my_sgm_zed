@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_server
+CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_server/build
+CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed/CMakeFiles/progress.marks
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles 0
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed/CMakeFiles/progress.marks
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/clean
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/preinstall
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/preinstall
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/rule:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/rule
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f CMakeFiles/Makefile2 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/rule
 .PHONY : my_sgm_zed/CMakeFiles/my_sgm_zed.dir/rule
 
 # Convenience name for target.
@@ -168,97 +168,97 @@ my_sgm_zed: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/rule
 
 # fast build rule for target.
 my_sgm_zed/fast:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build
 .PHONY : my_sgm_zed/fast
 
 # target to build an object file
 src/get_disparity.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o
 .PHONY : src/get_disparity.o
 
 # target to preprocess a source file
 src/get_disparity.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.i
 .PHONY : src/get_disparity.i
 
 # target to generate assembly for a file
 src/get_disparity.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.s
 .PHONY : src/get_disparity.s
 
 # target to build an object file
 src/get_point_cloud.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o
 .PHONY : src/get_point_cloud.o
 
 # target to preprocess a source file
 src/get_point_cloud.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i
 .PHONY : src/get_point_cloud.i
 
 # target to generate assembly for a file
 src/get_point_cloud.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s
 .PHONY : src/get_point_cloud.s
 
 # target to build an object file
 src/get_roi.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o
 .PHONY : src/get_roi.o
 
 # target to preprocess a source file
 src/get_roi.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.i
 .PHONY : src/get_roi.i
 
 # target to generate assembly for a file
 src/get_roi.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.s
 .PHONY : src/get_roi.s
 
 # target to build an object file
 src/little_tips.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o
 .PHONY : src/little_tips.o
 
 # target to preprocess a source file
 src/little_tips.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.i
 .PHONY : src/little_tips.i
 
 # target to generate assembly for a file
 src/little_tips.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.s
 .PHONY : src/little_tips.s
 
 # target to build an object file
 src/main.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o
 .PHONY : src/main.o
 
 # target to preprocess a source file
 src/main.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.i
 .PHONY : src/main.i
 
 # target to generate assembly for a file
 src/main.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.s
 .PHONY : src/main.s
 
 # target to build an object file
 src/my_camera.o:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o
 .PHONY : src/my_camera.o
 
 # target to preprocess a source file
 src/my_camera.i:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.i
 .PHONY : src/my_camera.i
 
 # target to generate assembly for a file
 src/my_camera.s:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(MAKE) -f my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build.make my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.s
 .PHONY : src/my_camera.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

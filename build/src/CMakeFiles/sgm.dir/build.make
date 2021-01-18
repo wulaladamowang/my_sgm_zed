@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_server
+CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_server/build
+CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/sgm.dir/depend.make
@@ -289,9 +289,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o: /usr/local/cuda-10.0
 src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o: ../src/census_transform.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_census_transform.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_census_transform.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_census_transform.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_census_transform.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_census_transform.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_census_transform.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: ../include/libsgm.h
 src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: ../include/libsgm_config.h
@@ -549,9 +549,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: /usr/local/cuda-10.
 src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o: ../src/check_consistency.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_check_consistency.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_check_consistency.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_check_consistency.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_check_consistency.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_check_consistency.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_check_consistency.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: ../include/libsgm.h
 src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: ../include/libsgm_config.h
@@ -809,9 +809,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: /usr/local/cu
 src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o: ../src/correct_disparity_range.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_correct_disparity_range.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_correct_disparity_range.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_correct_disparity_range.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_correct_disparity_range.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_correct_disparity_range.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_correct_disparity_range.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: ../src/cuda_utils.cu
 src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: ../src/internal.h
@@ -1041,9 +1041,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: /usr/local/cuda-10.0/inclu
 src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o: ../src/cuda_utils.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_cuda_utils.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_cuda_utils.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_cuda_utils.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_cuda_utils.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_cuda_utils.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_cuda_utils.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: ../src/horizontal_path_aggregation.cu
 src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: ../src/horizontal_path_aggregation.hpp
@@ -1216,9 +1216,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: /usr/loca
 src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o: ../src/horizontal_path_aggregation.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_horizontal_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_horizontal_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_horizontal_path_aggregation.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_horizontal_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_horizontal_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_horizontal_path_aggregation.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: ../src/internal.h
 src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: ../src/median_filter.cu
@@ -1448,9 +1448,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: /usr/local/cuda-10.0/in
 src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o: ../src/median_filter.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_median_filter.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_median_filter.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_median_filter.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_median_filter.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_median_filter.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_median_filter.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: ../src/oblique_path_aggregation.cu
 src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: ../src/oblique_path_aggregation.hpp
@@ -1623,9 +1623,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: /usr/local/c
 src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o: ../src/oblique_path_aggregation.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_oblique_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_oblique_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_oblique_path_aggregation.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_oblique_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_oblique_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_oblique_path_aggregation.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: ../include/libsgm.h
 src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: ../include/libsgm_config.h
@@ -1887,9 +1887,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: /usr/local/cuda-10.0
 src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o: ../src/path_aggregation.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_path_aggregation.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_path_aggregation.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: ../include/libsgm.h
 src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: ../include/libsgm_config.h
@@ -2151,9 +2151,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: /usr/local/cuda-10.0/include/vect
 src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o: ../src/sgm.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_sgm.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_sgm.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_sgm.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_sgm.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_sgm.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_sgm.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: ../src/path_aggregation_common.hpp
 src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: ../src/types.hpp
@@ -2326,9 +2326,9 @@ src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: /usr/local/
 src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o: ../src/vertical_path_aggregation.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_vertical_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_vertical_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_vertical_path_aggregation.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_vertical_path_aggregation.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_vertical_path_aggregation.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_vertical_path_aggregation.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: ../include/libsgm.h
 src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: ../include/libsgm_config.h
@@ -2589,22 +2589,22 @@ src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: /usr/local/cuda-10.0
 src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: /usr/local/cuda-10.0/include/vector_types.h
 src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o.cmake
 src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o: ../src/winner_takes_all.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building NVCC (Device) object src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -E make_directory /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o -D generated_cubin_file:STRING=/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o.cubin.txt -P /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.cmake
 
 src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o: src/CMakeFiles/sgm.dir/flags.make
 src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o: ../src/stereo_sgm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgm.dir/stereo_sgm.cpp.o -c /home/wang/code/c++Code/my_sgm_zed_server/src/stereo_sgm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgm.dir/stereo_sgm.cpp.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/src/stereo_sgm.cpp
 
 src/CMakeFiles/sgm.dir/stereo_sgm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgm.dir/stereo_sgm.cpp.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/src/stereo_sgm.cpp > CMakeFiles/sgm.dir/stereo_sgm.cpp.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/src/stereo_sgm.cpp > CMakeFiles/sgm.dir/stereo_sgm.cpp.i
 
 src/CMakeFiles/sgm.dir/stereo_sgm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgm.dir/stereo_sgm.cpp.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/src/stereo_sgm.cpp -o CMakeFiles/sgm.dir/stereo_sgm.cpp.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/src/stereo_sgm.cpp -o CMakeFiles/sgm.dir/stereo_sgm.cpp.s
 
 src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o.requires:
 
@@ -2619,16 +2619,16 @@ src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o.provides.build: src/CMakeFiles/sgm.dir/s
 
 src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o: src/CMakeFiles/sgm.dir/flags.make
 src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o: ../src/libsgm_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o -c /home/wang/code/c++Code/my_sgm_zed_server/src/libsgm_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/src/libsgm_wrapper.cpp
 
 src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/src/libsgm_wrapper.cpp > CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/src/libsgm_wrapper.cpp > CMakeFiles/sgm.dir/libsgm_wrapper.cpp.i
 
 src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/src/libsgm_wrapper.cpp -o CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/src/libsgm_wrapper.cpp -o CMakeFiles/sgm.dir/libsgm_wrapper.cpp.s
 
 src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o.requires:
 
@@ -2648,17 +2648,17 @@ sgm_OBJECTS = \
 
 # External object files for target sgm
 sgm_EXTERNAL_OBJECTS = \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o" \
-"/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o"
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_check_consistency.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_correct_disparity_range.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_cuda_utils.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_horizontal_path_aggregation.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_median_filter.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_oblique_path_aggregation.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_path_aggregation.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o" \
+"/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o"
 
 src/libsgm.a: src/CMakeFiles/sgm.dir/stereo_sgm.cpp.o
 src/libsgm.a: src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o
@@ -2675,9 +2675,9 @@ src/libsgm.a: src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.
 src/libsgm.a: src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o
 src/libsgm.a: src/CMakeFiles/sgm.dir/build.make
 src/libsgm.a: src/CMakeFiles/sgm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libsgm.a"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && $(CMAKE_COMMAND) -P CMakeFiles/sgm.dir/cmake_clean_target.cmake
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sgm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libsgm.a"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && $(CMAKE_COMMAND) -P CMakeFiles/sgm.dir/cmake_clean_target.cmake
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sgm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/sgm.dir/build: src/libsgm.a
@@ -2690,7 +2690,7 @@ src/CMakeFiles/sgm.dir/requires: src/CMakeFiles/sgm.dir/libsgm_wrapper.cpp.o.req
 .PHONY : src/CMakeFiles/sgm.dir/requires
 
 src/CMakeFiles/sgm.dir/clean:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/src && $(CMAKE_COMMAND) -P CMakeFiles/sgm.dir/cmake_clean.cmake
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/src && $(CMAKE_COMMAND) -P CMakeFiles/sgm.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/sgm.dir/clean
 
 src/CMakeFiles/sgm.dir/depend: src/CMakeFiles/sgm.dir/sgm_generated_census_transform.cu.o
@@ -2704,6 +2704,6 @@ src/CMakeFiles/sgm.dir/depend: src/CMakeFiles/sgm.dir/sgm_generated_path_aggrega
 src/CMakeFiles/sgm.dir/depend: src/CMakeFiles/sgm.dir/sgm_generated_sgm.cu.o
 src/CMakeFiles/sgm.dir/depend: src/CMakeFiles/sgm.dir/sgm_generated_vertical_path_aggregation.cu.o
 src/CMakeFiles/sgm.dir/depend: src/CMakeFiles/sgm.dir/sgm_generated_winner_takes_all.cu.o
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/code/c++Code/my_sgm_zed_server /home/wang/code/c++Code/my_sgm_zed_server/src /home/wang/code/c++Code/my_sgm_zed_server/build /home/wang/code/c++Code/my_sgm_zed_server/build/src /home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/code/c++Code/my_sgm_zed_multithread /home/wang/code/c++Code/my_sgm_zed_multithread/src /home/wang/code/c++Code/my_sgm_zed_multithread/build /home/wang/code/c++Code/my_sgm_zed_multithread/build/src /home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/sgm.dir/depend
 

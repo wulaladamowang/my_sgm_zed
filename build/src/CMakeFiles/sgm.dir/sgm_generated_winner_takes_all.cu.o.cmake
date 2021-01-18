@@ -58,18 +58,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "/usr/bin/cmake") # path
-set(source_file "/home/wang/code/c++Code/my_sgm_zed_server/src/winner_takes_all.cu") # path
-set(NVCC_generated_dependency_file "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.NVCC-depend") # path
-set(cmake_dependency_file "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.depend") # path
+set(source_file "/home/wang/code/c++Code/my_sgm_zed_multithread/src/winner_takes_all.cu") # path
+set(NVCC_generated_dependency_file "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.NVCC-depend") # path
+set(cmake_dependency_file "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//sgm_generated_winner_takes_all.cu.o.depend") # path
 set(CUDA_make2cmake "/usr/share/cmake-3.10/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "/usr/share/cmake-3.10/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "/usr/bin/cc") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//.") # path
-set(generated_file_internal "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o") # path
-set(generated_cubin_file_internal "/home/wang/code/c++Code/my_sgm_zed_server/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o.cubin.txt") # path
+set(generated_file_path "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//.") # path
+set(generated_file_internal "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o") # path
+set(generated_cubin_file_internal "/home/wang/code/c++Code/my_sgm_zed_multithread/build/src/CMakeFiles/sgm.dir//./sgm_generated_winner_takes_all.cu.o.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/usr/local/cuda-10.0/bin/nvcc") # path
 set(CUDA_NVCC_FLAGS  -std=c++11 -gencode;arch=compute_75,code=sm_75 ;; ) # list
@@ -79,7 +79,7 @@ set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64) # list
-set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda-10.0/include;/home/wang/code/c++Code/my_sgm_zed_server/include;/home/wang/code/c++Code/my_sgm_zed_server/src/../include;/usr/local/cuda-10.0/include") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_DIRS "/usr/local/cuda-10.0/include;/home/wang/code/c++Code/my_sgm_zed_multithread/include;/home/wang/code/c++Code/my_sgm_zed_multithread/src/../include;/usr/local/cuda-10.0/include") # list (needs to be in quotes to handle spaces properly).
 set(CUDA_NVCC_COMPILE_DEFINITIONS [==[]==]) # list (needs to be in lua quotes see #16510 ).
 set(format_flag "-c") # string
 set(cuda_language_flag ) # list

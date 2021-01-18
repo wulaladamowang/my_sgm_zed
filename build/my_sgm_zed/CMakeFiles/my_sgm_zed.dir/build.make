@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_server
+CMAKE_SOURCE_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_server/build
+CMAKE_BINARY_DIR = /home/wang/code/c++Code/my_sgm_zed_multithread/build
 
 # Include any dependencies generated for this target.
 include my_sgm_zed/CMakeFiles/my_sgm_zed.dir/depend.make
@@ -59,16 +59,16 @@ include my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o: ../my_sgm_zed/src/get_disparity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_disparity.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_disparity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_disparity.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_disparity.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/get_disparity.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_disparity.cpp > CMakeFiles/my_sgm_zed.dir/src/get_disparity.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_disparity.cpp > CMakeFiles/my_sgm_zed.dir/src/get_disparity.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/get_disparity.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_disparity.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_disparity.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_disparity.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_disparity.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o.requires:
 
@@ -83,16 +83,16 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_disparity.o.provides.build: my_sgm_
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o: ../my_sgm_zed/src/get_point_cloud.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_point_cloud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_point_cloud.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_point_cloud.cpp > CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_point_cloud.cpp > CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_point_cloud.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_point_cloud.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o.requires:
 
@@ -107,16 +107,16 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_point_cloud.o.provides.build: my_sg
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o: ../my_sgm_zed/src/get_roi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_roi.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_roi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/get_roi.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_roi.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/get_roi.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_roi.cpp > CMakeFiles/my_sgm_zed.dir/src/get_roi.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_roi.cpp > CMakeFiles/my_sgm_zed.dir/src/get_roi.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/get_roi.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/get_roi.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_roi.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/get_roi.cpp -o CMakeFiles/my_sgm_zed.dir/src/get_roi.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o.requires:
 
@@ -131,16 +131,16 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/get_roi.o.provides.build: my_sgm_zed/CM
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o: ../my_sgm_zed/src/little_tips.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/little_tips.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/little_tips.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/little_tips.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/little_tips.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/little_tips.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/little_tips.cpp > CMakeFiles/my_sgm_zed.dir/src/little_tips.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/little_tips.cpp > CMakeFiles/my_sgm_zed.dir/src/little_tips.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/little_tips.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/little_tips.cpp -o CMakeFiles/my_sgm_zed.dir/src/little_tips.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/little_tips.cpp -o CMakeFiles/my_sgm_zed.dir/src/little_tips.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o.requires:
 
@@ -155,16 +155,16 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/little_tips.o.provides.build: my_sgm_ze
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o: ../my_sgm_zed/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/main.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/main.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/main.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/main.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/main.cpp > CMakeFiles/my_sgm_zed.dir/src/main.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/main.cpp > CMakeFiles/my_sgm_zed.dir/src/main.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/main.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/main.cpp -o CMakeFiles/my_sgm_zed.dir/src/main.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/main.cpp -o CMakeFiles/my_sgm_zed.dir/src/main.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o.requires:
 
@@ -179,16 +179,16 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/main.o.provides.build: my_sgm_zed/CMake
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/flags.make
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o: ../my_sgm_zed/src/my_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/my_camera.o -c /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/my_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_sgm_zed.dir/src/my_camera.o -c /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/my_camera.cpp
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_sgm_zed.dir/src/my_camera.i"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/my_camera.cpp > CMakeFiles/my_sgm_zed.dir/src/my_camera.i
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/my_camera.cpp > CMakeFiles/my_sgm_zed.dir/src/my_camera.i
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_sgm_zed.dir/src/my_camera.s"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed/src/my_camera.cpp -o CMakeFiles/my_sgm_zed.dir/src/my_camera.s
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed/src/my_camera.cpp -o CMakeFiles/my_sgm_zed.dir/src/my_camera.s
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/src/my_camera.o.requires:
 
@@ -291,8 +291,8 @@ my_sgm_zed/my_sgm_zed: /usr/local/lib/libopencv_cudaarithm.so.4.2.0
 my_sgm_zed/my_sgm_zed: /usr/local/lib/libopencv_core.so.4.2.0
 my_sgm_zed/my_sgm_zed: /usr/local/lib/libopencv_cudev.so.4.2.0
 my_sgm_zed/my_sgm_zed: my_sgm_zed/CMakeFiles/my_sgm_zed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable my_sgm_zed"
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_sgm_zed.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wang/code/c++Code/my_sgm_zed_multithread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable my_sgm_zed"
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_sgm_zed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/build: my_sgm_zed/my_sgm_zed
@@ -309,10 +309,10 @@ my_sgm_zed/CMakeFiles/my_sgm_zed.dir/requires: my_sgm_zed/CMakeFiles/my_sgm_zed.
 .PHONY : my_sgm_zed/CMakeFiles/my_sgm_zed.dir/requires
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/clean:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed && $(CMAKE_COMMAND) -P CMakeFiles/my_sgm_zed.dir/cmake_clean.cmake
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed && $(CMAKE_COMMAND) -P CMakeFiles/my_sgm_zed.dir/cmake_clean.cmake
 .PHONY : my_sgm_zed/CMakeFiles/my_sgm_zed.dir/clean
 
 my_sgm_zed/CMakeFiles/my_sgm_zed.dir/depend:
-	cd /home/wang/code/c++Code/my_sgm_zed_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/code/c++Code/my_sgm_zed_server /home/wang/code/c++Code/my_sgm_zed_server/my_sgm_zed /home/wang/code/c++Code/my_sgm_zed_server/build /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed /home/wang/code/c++Code/my_sgm_zed_server/build/my_sgm_zed/CMakeFiles/my_sgm_zed.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/code/c++Code/my_sgm_zed_multithread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/code/c++Code/my_sgm_zed_multithread /home/wang/code/c++Code/my_sgm_zed_multithread/my_sgm_zed /home/wang/code/c++Code/my_sgm_zed_multithread/build /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed /home/wang/code/c++Code/my_sgm_zed_multithread/build/my_sgm_zed/CMakeFiles/my_sgm_zed.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_sgm_zed/CMakeFiles/my_sgm_zed.dir/depend
 
