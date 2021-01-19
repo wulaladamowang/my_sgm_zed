@@ -1,7 +1,6 @@
 #ifndef __HEAD_H__
 #define __HEAD_H__
 
-//#include "get_remap.hpp"
 #include "my_camera.hpp"
 #include "little_tips.hpp"
 #include "get_point_cloud.hpp"
