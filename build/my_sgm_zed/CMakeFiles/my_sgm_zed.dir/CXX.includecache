@@ -65,6 +65,10 @@ string
 -
 iostream
 -
+mutex
+-
+condition_variable
+-
 
 ../my_sgm_zed/include/little_tips.hpp
 stdio.h
