@@ -18,12 +18,12 @@ void getImage1(sl::Camera& zed, const sl::RuntimeParameters& runtime_parameters,
         t1 = getCurrentTime();
         std::cout << "GET IMAGE: " << t1-t2 << " ms" << std::endl;
         t2 = getCurrentTime();
+        // 将锁加在外面可以保证grab和retrieveImage的时效性，如果抓取失败，锁依旧在本线程
+        std::unique_lock<std::mutex> lck_r(lock_roi);
+        con_roi.wait(lck_r, []{return !not_roi;});
+        std::unique_lock<std::mutex> lck_d(lock_disparity);
+        con_disp.wait(lck_d, []{return !not_disparity;});
         if (zed.grab(runtime_parameters)==sl::ERROR_CODE::SUCCESS){
-            std::unique_lock<std::mutex> lck_r(lock_roi);
-            con_roi.wait(lck_r, []{return !not_roi;});
-            std::unique_lock<std::mutex> lck_d(lock_disparity);
-            con_disp.wait(lck_d, []{return !not_disparity;});
-
             // 考虑到延时性，加锁img_zed在此
             zed.retrieveImage(zed_image_l, sl::VIEW::LEFT_UNRECTIFIED_GRAY, sl::MEM::CPU);
             zed.retrieveImage(zed_image_r, sl::VIEW::RIGHT_UNRECTIFIED_GRAY, sl::MEM::CPU);
@@ -81,6 +81,7 @@ void getMaskRoi1(struct img_time& img_zed, struct roi_time& roi_mask, bool& run)
         not_roi = false;
         con_roi.notify_one();
         // 解锁img_zed
+        //sl::sleep_ms(6);
         get_roi(std::ref(img_left), std::ref(roi_mask.mask), std::ref(roi_mask.is_detected_mask), std::ref(roi_mask.rect_roi));
         roi_mask.time = getCurrentTime();
         old_time = img_zed.time;
